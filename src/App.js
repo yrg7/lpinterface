@@ -21,7 +21,6 @@ function App() {
     const port = getUrlParam('distPort')
     const endPointIP = getUrlParam('endPointIP')
 
-    // setUrlData({ ...urlData, distIP: distance, distPort: port, endPointIP: endPointIP })
     if (distance) {
       let urlHT=''
       let urlWS=''
