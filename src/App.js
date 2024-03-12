@@ -13,7 +13,6 @@ export const UrlContext = createContext(null);
 
 function App() {
 
-  // const [urlData, setUrlData] = useState({ distIP: '', distPort: '', endPointIP: '' });
   const [urlComplette, setUrlComplette] = useState({ ht: '', ws: '' });
 
   useEffect(() => {
